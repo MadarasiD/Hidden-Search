@@ -11,3 +11,32 @@ body {
     margin: 0;
     background-image: linear-gradient(135deg, #cc5f6d, #341e94);
 }
+
+.search {
+    position: relative;
+    height: 50px;
+}
+
+.search .input {
+    background: #fff;
+    border: none;
+    font-size: 18px;
+    padding: 15px;
+    height: 50px;
+    width: 50px;
+    transition: width 0.3s ease;
+}
+
+.btn  {
+    background: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 50px;
+    transition: transfrom 0.3s ease;
+}
+
